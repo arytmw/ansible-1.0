@@ -7,4 +7,4 @@ ansible-navigator:
       policy: missing
   mode: stdout
   playbook-artifact:
-    enabled: false
+    enable: false
