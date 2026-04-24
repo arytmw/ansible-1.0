@@ -1,0 +1,7 @@
+---
+- name: Simple playbook to test connection
+  hosts: all
+  tasks:
+    - name: Print a message
+      ansible.builtin.debug:
+        msg: "hello world from networknuts\n"
